@@ -2,21 +2,30 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+}
+
+img {
+    width: 400px;
 }
 
 .header, .hero-section, .footer {
     background-color: #1F2937;
     color: #f9faf8;
     display: flex;
+    
+}
+
+.hero-section {
+    padding: 20px 200px 100px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 100px;
 }
 
 .header {
-    padding: 20px 0px;
     font-size: 24px;
     font-weight: 900;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
 
 ul {
@@ -36,11 +45,29 @@ a {
     gap: 10px;
 }
 
-.menu, .hero-subtext {
+.menu, .hero-subtext, .hero-button {
     font-size: 18px;
     font-weight: 1;
     color: #e5e7eb
 }
+
+.hero-pitch {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-button {  
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
 
 .content {
     flex: 1;
