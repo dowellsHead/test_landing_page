@@ -130,12 +130,16 @@ a {
     font-weight: 900;
 }
 
-
-
 .cta-button {
     background-color: #3882f6;
     border: 2px solid #e5e7eb;
     padding: 5px 30px;
     border-radius: 7px;
 
+}
+
+.footer {
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
 }
