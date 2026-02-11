@@ -45,7 +45,7 @@ a {
     gap: 10px;
 }
 
-.menu, .hero-subtext, .hero-button {
+.menu, .hero-subtext, .hero-button, .cta-button {
     font-size: 18px;
     font-weight: 1;
     color: #e5e7eb
@@ -64,8 +64,9 @@ a {
 
 .hero-button {  
     background-color: #3882F6;
-    padding: 5px 20px;
-    border-radius: 10px;
+    padding: 5px 30px;
+    border-radius: 7px;
+    border: 0;
 }
 
 .content {
@@ -112,4 +113,29 @@ a {
     font-weight: bold;
     font-style: normal;
     text-align: right;
+}
+
+.box {
+    margin: 100px 170px;
+    padding: 50px 70px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.cta-header {
+    font-weight: 900;
+}
+
+
+
+.cta-button {
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    padding: 5px 30px;
+    border-radius: 7px;
+
 }
